@@ -1,0 +1,40 @@
+<html>
+ <html lang="pt-BR">
+   <head>
+    <title>Calculadora</title>
+     <link rel="stylesheet" type="text/css" href="Calculadora.css">
+   </head>
+ <body>
+  <form name="calcular">
+     <h1 id="text"> Calculadora, faça um calculo!!!</h1>
+    <input  class="espaco" type="textfield" name="mais" value="">
+	    <br>
+		<br>
+	   <div>
+		<input class="butao btn-black" type="button" value="1" onClick="document.calcular.mais.value+='1'">
+		<input class="butao btn-black" type="button" value="2" onClick="document.calcular.mais.value+='2'">
+		<input class="butao btn-black" type="button" value="3" onClick="document.calcular.mais.value+='3'">
+		<input class="butao btn-black" type="button" value="+" onClick="document.calcular.mais.value+='+'">
+			<br>
+			<input class="butao btn-black" type="button" value="4" onClick="document.calcular.mais.value+='4'">
+			<input class="butao btn-black" type="button" value="5" onClick="document.calcular.mais.value+='5'">
+			<input class="butao btn-black" type="button" value="6" onClick="document.calcular.mais.value+='6'">
+			<input class="butao btn-black" type="button" value="-" onClick="document.calcular.mais.value+='-'">
+		<br>
+		<input class="butao btn-black" type="button" value="7" onClick="document.calcular.mais.value+='7'">
+		<input class="butao btn-black" type="button" value="8" onClick="document.calcular.mais.value+='8'">
+		<input class="butao btn-black" type="button" value="9" onClick="document.calcular.mais.value+='9'">
+		<input class="butao btn-black" type="button" value="*" onClick="document.calcular.mais.value+='*'">
+			<br>
+			<input class="butao btn-black" type="button" value="0" onClick="document.calcular.mais.value+='0'">
+			<input class="butao btn-black" type="reset" value="c">
+			<input class="butao btn-black" type="button" value="/" onClick="document.calcular.mais.value+='/'">
+			<input class="butao btn-black" type="button" value="=" onClick="document.calcular.mais.value=eval(document.calcular.mais.value)">
+		 </div>
+			</form>
+  </body>
+ <script src="script.js"></script>
+</html>
+
+ 
+ 
